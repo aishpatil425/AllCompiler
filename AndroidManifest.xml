@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myproperty"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cloudic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.AllCompiler.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.RegActivity"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.MainPropertyActivity"
+            android:label="@string/title_activity_main_property" >
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.FileUploadActivity"
+            android:label="@string/title_activity_file_upload" >
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.AllCompiler.OTPActivity"
+            android:label="@string/title_activity_otp" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>
